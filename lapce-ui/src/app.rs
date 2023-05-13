@@ -204,7 +204,7 @@ where
     };
     let mut desc = WindowDesc::new_with_id(window_id, root)
         .title(LocalizedString::new("Lapce").with_placeholder("Lapce"))
-        .with_min_size(Size::new(384.0, 384.0))
+        .with_min_size(Size::new(38.0, 38.0))
         .window_size(size)
         .set_position(pos);
 
